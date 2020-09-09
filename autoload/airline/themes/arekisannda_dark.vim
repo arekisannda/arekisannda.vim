@@ -100,14 +100,14 @@ let s:palette.inactive_modified = {
 " tabline
 let s:palette.tabline = {
     \ 'airline_tabtype':            s:add(s:magenta, s:tab_info, 'bold'),
-    \ 'airline_tablabel':           s:add(s:off_white, s:tab_current, 'none'),
+    \ 'airline_tablabel':           s:add(s:magenta, s:tab_current, 'none'),
     \ 'airline_tabsel':             s:add(s:off_white, s:tab_current, 'none'),
     \ 'airline_tabmod':             s:add(s:orange, s:tab_current, 'none'),
     \ 'airline_tabmod_unsel':       s:add(s:orange, s:tab_other, 'none'),
     \ 'airline_tab':                s:add(s:off_white, s:tab_other, 'none'),
     \ 'airline_tabhid':             s:add(s:off_white, s:tab_other, 'none'),
     \ 'airline_tabfill':            s:add(s:off_white, s:tab_other, 'none'),
-    \ 'airline_tablabel_right':     s:add(s:off_white, s:tab_current, 'none'),
+    \ 'airline_tablabel_right':     s:add(s:magenta, s:tab_current, 'none'),
     \ 'airline_tab_right':          s:add(s:off_white, s:tab_other, 'none'),
     \ 'airline_tabsel_right':       s:add(s:off_white, s:tab_current, 'none'),
     \ 'airline_tabhid_right':       s:add(s:off_white, s:tab_other, 'none'),
